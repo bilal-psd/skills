@@ -4,7 +4,7 @@ My Claude Code mods and skills, as a plugin marketplace.
 
 ```
 /plugin marketplace add bilal-psd/skills
-/plugin install dev-band@bilal
+/plugin install dev-band@bilal-skills
 ```
 
 ## What's here
@@ -16,7 +16,7 @@ My Claude Code mods and skills, as a plugin marketplace.
 | `sitrep` | skill | `/sitrep`: a 12-line status of the session — now, last step, needs you, next. |
 | `wrap` | skill | `/wrap`: updates the work plan and `AGENTS.md` so a fresh session can pick up where this one left off. |
 
-Install any of them by name: `/plugin install <name>@bilal`. Run `/reload-plugins` if a new command doesn't show up.
+Install any of them by name: `/plugin install <name>@bilal-skills`. Run `/reload-plugins` if a new command doesn't show up.
 
 ## Notes
 
