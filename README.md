@@ -9,6 +9,8 @@ My Claude Code mods and skills, as a plugin marketplace.
 
 ## What's here
 
+Mods live in `mods/`, skills in `skills/`.
+
 | Plugin | Kind | What it does |
 |---|---|---|
 | `dev-band` | mod | A band above the prompt: git branch and changes, 5h/7d usage limits, prompt-cache warmth. Warns when context gets big (`c` compact, `x` clear, `l` later). After 30 idle minutes it unfolds a sitrep of the session; `/sitrep-card` writes one now. |
@@ -21,7 +23,7 @@ Install any of them by name: `/plugin install <name>@bilal-skills`. Run `/reload
 ## Notes
 
 - `dev-band` writes its sitrep from your own `~/.claude/skills/sitrep/SKILL.md` if you have one, otherwise from the copy it ships.
-- `dev-band`'s usage tracking is adapted from [Vosssa/claude-usage-band](https://github.com/Vosssa/claude-usage-band) (MIT, see `plugins/dev-band/LICENSE-usage-band`).
+- `dev-band`'s usage tracking is adapted from [Vosssa/claude-usage-band](https://github.com/Vosssa/claude-usage-band) (MIT, see `mods/dev-band/LICENSE-usage-band`).
 
 ## License
 

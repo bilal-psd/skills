@@ -1,27 +1,36 @@
 {
   "name": "bilal-skills",
-  "owner": { "name": "Bilal", "url": "https://github.com/bilal-psd" },
-  "metadata": { "description": "Bilal's Claude Code mods and skills" },
+  "owner": {
+    "name": "Bilal",
+    "url": "https://github.com/bilal-psd"
+  },
+  "metadata": {
+    "description": "Bilal's Claude Code mods and skills"
+  },
   "plugins": [
     {
       "name": "dev-band",
-      "source": "./plugins/dev-band",
-      "description": "Band above the prompt: git, context, 5h/7d limits, cache warmth; unfolds a sitrep after 30 idle minutes"
+      "source": "./mods/dev-band",
+      "description": "Band above the prompt: git, context, 5h/7d limits, cache warmth; unfolds a sitrep after 30 idle minutes",
+      "category": "mod"
     },
     {
       "name": "question-card",
-      "source": "./plugins/question-card",
-      "description": "ask_many: the built-in question dialog for more than 4 questions"
+      "source": "./mods/question-card",
+      "description": "ask_many: the built-in question dialog for more than 4 questions",
+      "category": "mod"
     },
     {
       "name": "sitrep",
-      "source": "./plugins/sitrep",
-      "description": "/sitrep: a 12-line status of the session"
+      "source": "./skills/sitrep",
+      "description": "/sitrep: a 12-line status of the session",
+      "category": "skill"
     },
     {
       "name": "wrap",
-      "source": "./plugins/wrap",
-      "description": "/wrap: hand the session off to a fresh one via the work plan and AGENTS.md"
+      "source": "./skills/wrap",
+      "description": "/wrap: hand the session off to a fresh one via the work plan and AGENTS.md",
+      "category": "skill"
     }
   ]
 }
