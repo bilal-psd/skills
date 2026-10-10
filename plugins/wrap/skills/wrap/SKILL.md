@@ -1,5 +1,7 @@
 ---
-description: Update work plan and AGENTS.md so a fresh session can pick up where this one left off
+name: wrap
+description: Update the work plan and AGENTS.md so a fresh session can pick up where this one left off
+disable-model-invocation: true
 ---
 
 I want to continue this work in a new session after this one closes. Before that happens:
