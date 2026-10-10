@@ -1,0 +1,10 @@
+{
+  "name": "dev-band",
+  "version": "0.1.0",
+  "description": "tmux-style band above the prompt: git, context, 5h/7d limits, cache warmth; unfolds a sitrep after 30 idle minutes",
+  "author": {
+    "name": "Bilal",
+    "url": "https://github.com/bilal-psd"
+  },
+  "types": "./types/index.d.ts"
+}

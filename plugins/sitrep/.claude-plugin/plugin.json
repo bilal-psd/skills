@@ -1,0 +1,9 @@
+{
+  "name": "sitrep",
+  "version": "0.1.0",
+  "description": "/sitrep: a 12-line status of the session \u2014 now, last step, needs you, next",
+  "author": {
+    "name": "Bilal",
+    "url": "https://github.com/bilal-psd"
+  }
+}

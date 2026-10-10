@@ -1,0 +1,9 @@
+{
+  "name": "wrap",
+  "version": "0.1.0",
+  "description": "/wrap: update the work plan and AGENTS.md so a fresh session can pick up where this one left off",
+  "author": {
+    "name": "Bilal",
+    "url": "https://github.com/bilal-psd"
+  }
+}

@@ -1,0 +1,3 @@
+.DS_Store
+# Engine types Claude Code regenerates when it loads a mod
+.claude-plugin/types/

@@ -1,0 +1,9 @@
+{
+  "name": "question-card",
+  "version": "0.2.0",
+  "description": "ask_many: the built-in question dialog for more than 4 questions",
+  "author": {
+    "name": "Bilal",
+    "url": "https://github.com/bilal-psd"
+  }
+}
